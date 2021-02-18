@@ -1,0 +1,43 @@
+#login #bear {
+  width: 200px;
+  left: 50%;
+  position: absolute;
+  z-index: 9999;
+  margin-top: 10px; }
+
+#login .login-form {
+  position: relative;
+  top: 150px;
+  padding: 20px;
+  width: 400px;
+  border: 1px solid lightgrey;
+  border-radius: 20px;
+  height: 350px; }
+  #login .login-form .form-group {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px; }
+    #login .login-form .form-group input[type="submit"].login-button {
+      float: right !important; }
+  #login .login-form .register-link {
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px; }
+
+#login .google-group {
+  margin: 0 auto;
+  top: 175px;
+  position: relative;
+  width: 400px; }
+  #login .google-group input[type="submit"] {
+    width: 400px; }
+
+#login .register-form {
+  height: 400px !important; }
+
+body {
+  background-color: white; }
+  body h1 {
+    /* font-family: $headerFont, serif;*/ }

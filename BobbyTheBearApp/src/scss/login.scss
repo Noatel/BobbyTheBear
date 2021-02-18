@@ -1,0 +1,53 @@
+﻿
+#login {
+    #bear {
+        width: 200px;
+        left: 50%;
+        position: absolute;
+        z-index: 9999;
+        margin-top: 10px;
+    }
+
+    .login-form {
+        .form-group {
+            width: 100%;
+            margin: 0 auto;
+            margin-top: 20px;
+
+            input[type="submit"].login-button {
+                float: right !important;
+            }
+        }
+
+        .register-link {
+            display: inline-block;
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        position: relative;
+        top: 150px;
+        padding: 20px;
+        width: 400px;
+        border: 1px solid lightgrey;
+        border-radius: 20px;
+        height: 350px;
+    }
+
+    .google-group {
+        margin: 0 auto;
+        top: 175px;
+        position: relative;
+        width: 400px;
+
+        input[type="submit"] {
+            width: 400px;
+        }
+    }
+
+    .register-form {
+        height: 400px !important;
+    }
+}
